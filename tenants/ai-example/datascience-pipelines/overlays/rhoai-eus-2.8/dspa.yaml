@@ -1,5 +1,6 @@
 apiVersion: datasciencepipelinesapplications.opendatahub.io/v1alpha1
 kind: DataSciencePipelinesApplication
+namespace: ai-example-training
 metadata:
   name: dspa
 spec:

@@ -1,8 +1,8 @@
 apiVersion: datasciencepipelinesapplications.opendatahub.io/v1
 kind: DataSciencePipelinesApplication
-namespace: ai-example-training
 metadata:
   name: dspa
+  namespace: ai-example-training
 spec:
   apiServer:
     artifactSignedURLExpirySeconds: 60
